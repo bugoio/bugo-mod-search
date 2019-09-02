@@ -1,3 +1,3 @@
-module github.com/bugoio/bugo-search
+module github.com/bugoio/bugo-mod-search
 
 go 1.12
