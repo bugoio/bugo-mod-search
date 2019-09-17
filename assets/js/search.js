@@ -33,7 +33,7 @@ let searchQuery = getUrlParameter('q');
 if(searchQuery){
   document.getElementById("search-query").value = searchQuery;
   executeSearch(searchQuery);
-} else {
+} else if($('body').hasClass('search')){
   document.getElementById('search-results').innerHTML = "<p class=\"no-results\">Please enter a word or phrase above</p>";
 }
 
